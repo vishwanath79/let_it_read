@@ -7,7 +7,7 @@ WORKDIR /app
 
 RUN pip install -r requirements.txt
 
-EXPOSE 80
+EXPOSE 8501
 
 RUN mkdir ~/.streamlit
 
