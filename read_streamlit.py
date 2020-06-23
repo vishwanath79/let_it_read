@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""RNN implementation  """
+"""RNN implementation example with Streamlit"""
 
 __version__ = '0.1'
 
