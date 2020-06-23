@@ -114,7 +114,7 @@ if __name__ == '__main__':
     #st.text('Loading data...')
     st.image("wallpaper.jpg", caption="beatles")
     checkpoint_dir = 'checkpoints/ckpt_371'
-    lyrics = st.text_input("Enter the words you want to generate lyrics for ...(example - 'let it be'")
+    lyrics = st.text_input("Enter the words you want to generate lyrics for ...(example - 'let it be')")
 
     if lyrics != "":
         with st.spinner('Running inference...'):
