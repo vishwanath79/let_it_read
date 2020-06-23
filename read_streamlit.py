@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-"""RNN implementation"""
+"""RNN implementation  """
 
 __version__ = '0.1'
 
