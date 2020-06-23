@@ -16,6 +16,8 @@ st.title("Let it read...")
 
 st.text("RNN for generating Beatles lyrics.")
 
+st.text("Source: https://github.com/vishwanath79/let_it_read")
+
 
 print(tf.version)
 
