@@ -112,15 +112,16 @@ if __name__ == '__main__':
     # number of rnn units
     rnn_units = 1024
     #st.text('Loading data...')
-    st.image("wallpaper.jpg", caption="wallpaper")
+    st.image("wallpaper.jpg", caption="beatles")
     checkpoint_dir = 'checkpoints/ckpt_371'
     lyrics = st.text_input("Enter the words you want to generate lyrics for..")
 
     if lyrics != "":
+        with st.spinner('Will I wait a lonely lifetime...'):
+            time.sleep(10)
 
         lyrics = load_model(vocab_size, embedding_dim, rnn_units, lyrics)
-        with st.spinner('Wait for it...'):
-            time.sleep(10)
+
 
         st.text(lyrics)
     else:
