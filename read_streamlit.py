@@ -117,7 +117,7 @@ if __name__ == '__main__':
     lyrics = st.text_input("Enter the words you want to generate lyrics for..")
 
     if lyrics != "":
-        with st.spinner('Will I wait a lonely lifetime...'):
+        with st.spinner('Running inference...'):
             time.sleep(10)
 
         lyrics = load_model(vocab_size, embedding_dim, rnn_units, lyrics)
